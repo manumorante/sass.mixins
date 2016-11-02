@@ -1,0 +1,38 @@
+/**
+ * Bootstrap Grid As Table
+ * Manu Morante @unavezfui
+ * Last update: October 08, 2014
+ * http://codepen.io/unavezfui/pen/JzcGx
+ * 
+ * Use ".row-table-xs" in ".row" when you need cols in xsmall version (.col-sx-...)
+ * 
+ * <div class="row row-table row-table-xs">
+ *   <div class="col-xs-6"> ...  </div>
+ *   <div class="col-xs-6"> ... </div>
+ * </div>
+ */
+
+// Bootstrap: Small screen / tablet
+$screen-sm: 768px;
+
+@mixin row-table {
+  display: table !important;
+
+  > [class*="col-"]{
+    float:none!important;
+    display: table-cell!important;
+    vertical-align: middle;
+    &.td-top{ vertical-align: top!important; }
+    &.td-bottom { vertical-align: bottom!important; }
+  }  
+}
+
+.row-table.row-table-xs {
+  @include row-table;
+}
+
+@media (min-width: $screen-sm) {
+  .row-table {
+    @include row-table;
+  }
+};
