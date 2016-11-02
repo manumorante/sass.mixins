@@ -1,4 +1,4 @@
-Usasge
+Usage
 
 ```scss
 .all    { @include borders($borders: all) }
