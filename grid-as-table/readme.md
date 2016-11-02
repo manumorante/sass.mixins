@@ -1,4 +1,4 @@
-Usage
+### Usage
 
 Use '.row-table-xs' in '.row' when you need cols in xsmall version (.col-sx-...)
 
