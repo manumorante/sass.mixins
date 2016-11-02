@@ -1,11 +1,11 @@
-Usage
+### Usage
 
 ```scss
  $width: 100px;
  @warm strip-units($width)
  ```
  
- Output
+ ### Output
  ```scss
  100
  ```
