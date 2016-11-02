@@ -1,0 +1,12 @@
+/**
+ * Strip-units
+ * http://stackoverflow.com/a/12335841
+ *
+ * Usage:
+ * $width: 100px;
+ * @warm strip-units($width) // => 100
+ */
+
+@function strip-units($number) {
+  @return $number / ($number * 0 + 1);
+}
