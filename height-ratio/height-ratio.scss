@@ -1,0 +1,11 @@
+/**
+ * Ratio
+ * Manu Morante @unavezfui
+ * Created on 18 Nov 2014
+ *
+ * Formula: original height / original width x new width = new height
+ * http://andrew.hedges.name/experiments/aspect_ratio/
+ */
+@mixin height-ratio($width, $ratio: 1 1, $variation:0) {
+  height: ((nth($ratio, 2) / nth($ratio, 1)) * $width) + $variation;
+}
