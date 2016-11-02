@@ -1,4 +1,4 @@
-Usage
+### Usage
 
 ```scss
 .all    { @include borders($borders: all) }
@@ -9,7 +9,7 @@ Usage
 .sides  { @include borders($borders: left right) }
 ```
 
-Output
+### Output
 ```scss
 .all {
   border: #000 1px solid;
