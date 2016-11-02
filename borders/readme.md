@@ -1,4 +1,11 @@
 ```scss
+.all    { @include borders($borders: all) }
+.top    { @include borders($borders: top) }
+.right  { @include borders($borders: right) }
+.bottom { @include borders($borders: bottom) }
+.left   { @include borders($borders: left) }
+.sides  { @include borders($borders: left right) }
+
 .all {
   border: #000 1px solid;
 }
