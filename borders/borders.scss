@@ -1,0 +1,23 @@
+@mixin borders(
+  $color: #000,
+  $width: 1px,
+  $style: solid,
+  $borders: ()
+  ){
+  @if($borders == all){
+    border: $color $width $style;
+  } @else {
+    @each $border in $borders{
+      border-#{$border}-color: $color;
+      border-#{$border}-width: $width;
+      border-#{$border}-style: $style;
+    }
+  }
+}
+
+.all    { @include borders($borders: all) }
+.top    { @include borders($borders: top) }
+.right  { @include borders($borders: right) }
+.bottom { @include borders($borders: bottom) }
+.left   { @include borders($borders: left) }
+.sides  { @include borders($borders: left right) }
