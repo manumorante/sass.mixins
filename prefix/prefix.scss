@@ -1,0 +1,10 @@
+// BvStyles Prefix
+//
+// Use @include bvs-prefix(appearance, none)
+
+@mixin bvs-prefix($prop, $value) {
+  -webkit-#{$prop}: $value;
+  -moz-#{$prop}: $value;
+  -ms-#{$prop}: $value;
+  #{$prop}: $value;
+}
