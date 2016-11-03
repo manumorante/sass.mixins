@@ -7,7 +7,7 @@ Note this mixin rewrites all position properties.
 }
 ```
 
-##### CSS
+CSS
 ```css
 .box {
   position: absolute;
