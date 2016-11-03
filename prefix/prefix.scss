@@ -2,9 +2,9 @@
 //
 // Use @include prefix(prop, none)
 
-@mixin prefix($prop, $value) {
-  -webkit-#{$prop}: $value;
-  -moz-#{$prop}: $value;
-  -ms-#{$prop}: $value;
+@mixin prefix($prop, $value, $prefixes: webkit moz ms) {
+  @each $prefix in $prefixes {
+    -#{$prefix}-#{$prop}: $value;
+  }
   #{$prop}: $value;
 }
