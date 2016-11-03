@@ -1,8 +1,8 @@
-// BvStyles Prefix
+// Prefix
 //
-// Use @include bvs-prefix(appearance, none)
+// Use @include prefix(prop, none)
 
-@mixin bvs-prefix($prop, $value) {
+@mixin prefix($prop, $value) {
   -webkit-#{$prop}: $value;
   -moz-#{$prop}: $value;
   -ms-#{$prop}: $value;
