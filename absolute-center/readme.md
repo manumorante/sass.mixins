@@ -1,5 +1,7 @@
 Note this mixin rewrites all position properties.
 
+![](https://raw.githubusercontent.com/manumorante/sass.mixins/master/absolute-center/images/t-l.png)
+
 #### SCSS
 ```scss
 .box {
@@ -17,6 +19,8 @@ CSS
   bottom: inherit;
 }
 ```
+
+![](https://raw.githubusercontent.com/manumorante/sass.mixins/master/absolute-center/images/t.png)
 
 #### SCSS
 ```scss
@@ -36,6 +40,8 @@ CSS
 }
 ```
 
+![](https://raw.githubusercontent.com/manumorante/sass.mixins/master/absolute-center/images/t-r.png)
+
 #### SCSS
 ```scss
 .box {
@@ -53,6 +59,8 @@ CSS
   bottom: inherit;
 }
 ```
+
+![](https://raw.githubusercontent.com/manumorante/sass.mixins/master/absolute-center/images/t-r-b.png)
 
 #### SCSS
 ```scss
@@ -72,6 +80,8 @@ CSS
 }
 ```
 
+![](https://raw.githubusercontent.com/manumorante/sass.mixins/master/absolute-center/images/a.png)
+
 #### SCSS
 ```scss
 .box {
@@ -89,6 +99,8 @@ CSS
   bottom: 0;
 }
 ```
+
+![](https://raw.githubusercontent.com/manumorante/sass.mixins/master/absolute-center/images/t.png)
 
 #### SCSS
 ```scss
@@ -108,6 +120,8 @@ CSS
 }
 ```
 
+![](https://raw.githubusercontent.com/manumorante/sass.mixins/master/absolute-center/images/l.png)
+
 #### SCSS
 ```scss
 .box {
@@ -125,6 +139,8 @@ CSS
   bottom: inherit;
 }
 ```
+
+![](https://raw.githubusercontent.com/manumorante/sass.mixins/master/absolute-center/images/r.png)
 
 #### SCSS
 ```scss
@@ -144,6 +160,8 @@ CSS
 }
 ```
 
+![](https://raw.githubusercontent.com/manumorante/sass.mixins/master/absolute-center/images/b.png)
+
 #### SCSS
 ```scss
 .box {
@@ -162,6 +180,8 @@ CSS
 }
 ```
 
+![](https://raw.githubusercontent.com/manumorante/sass.mixins/master/absolute-center/images/t-b.png)
+
 #### SCSS
 ```scss
 .box {
@@ -179,6 +199,8 @@ CSS
   bottom: 0;
 }
 ```
+
+![](https://raw.githubusercontent.com/manumorante/sass.mixins/master/absolute-center/images/t-r.png)
 
 #### SCSS
 ```scss
