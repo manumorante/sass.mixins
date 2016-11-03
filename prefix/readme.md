@@ -1,4 +1,4 @@
-#### Usage
+### Usage
 
 ```scss
 .borders {
@@ -6,13 +6,13 @@
 }
 ```
 
-Output
+### Output
 
 ```css
 .borders {
-  -webkit-border-radius: $value;
-  -moz-#{$prop}: $value;
-  -ms-#{$prop}: $value;
-  #{$prop}: $value;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  border-radius: 10px;
 }
 ```
