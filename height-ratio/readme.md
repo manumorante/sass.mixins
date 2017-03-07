@@ -16,3 +16,6 @@ $image-width: 200px;
   height: 150px;
 }
 ```
+
+---
+Manu Morante // Created November 18, 2014
