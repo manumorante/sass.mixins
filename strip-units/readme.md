@@ -5,7 +5,10 @@
  @warm strip-units($width)
  ```
  
- ### Output
- ```scss
- 100
- ```
+### Output
+```scss
+100
+```
+
+---
+Manu Morante // Created November, 2016
