@@ -1,6 +1,6 @@
 ### Usage
 
-Use '.row-table-xs' in '.row' when you need cols in xsmall version (.col-sx-...)
+Use <code>.row-table-xs</code> in <code>.row</code> when you need cols in xsmall version (<code>.col-sx-...</code>)
 
 ```scss
 .row-table.row-table-xs {
@@ -11,7 +11,7 @@ Use '.row-table-xs' in '.row' when you need cols in xsmall version (.col-sx-...)
   .row-table {
     @include row-table;
   }
-};
+}
 ```
 
 ```html
@@ -20,3 +20,6 @@ Use '.row-table-xs' in '.row' when you need cols in xsmall version (.col-sx-...)
   <div class="col-xs-6"> ... </div>
 </div>
 ```
+
+---
+Manu Morante // Created October 17, 2013 // Updated October 8, 2014
