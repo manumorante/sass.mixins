@@ -1,12 +1,12 @@
 ### Usage
 
 ```scss
-  .box {
-    @include gradient(#000, #FFF);
-  }
+.box {
+  @include gradient(#000, #FFF);
+}
 ```
 
-Output
+### Output
 
 ```css
 .box {
@@ -16,3 +16,6 @@ Output
   background: linear-gradient(to bottom, #000 0%, #FFF 100%);
 }
 ```
+
+---
+Manu Morante // Created September 19, 2014 // Updated November 3, 2016
